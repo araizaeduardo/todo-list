@@ -48,3 +48,25 @@
    ```
 
 7. Accede a la aplicación en tu navegador: `http://tu-dominio.com`
+
+## Instalación con Docker
+
+1. Clona el repositorio:
+   ```
+   git clone https://github.com/tu-usuario/todo-list.git
+   cd todo-list
+   ```
+
+2. Construye la imagen de Docker:
+   ```
+   docker build -t todo-list .
+   ```
+
+3. Ejecuta el contenedor:
+   ```
+   docker run -d -p 80:80 todo-list
+   ```
+
+4. Accede a la aplicación en tu navegador: `http://localhost`
+
+Nota: Asegúrate de tener Docker instalado en tu sistema antes de seguir estos pasos.

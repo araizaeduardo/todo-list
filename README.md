@@ -1,4 +1,4 @@
-# todo-list
+# todo-list (Versión 1)
 
 > Este proyecto es una aplicación de lista de tareas (todo-list) que utiliza almacenamiento local del navegador (localStorage) para guardar las tareas del usuario.
 
